@@ -1,0 +1,121 @@
+/* ImportExport.css */
+.import-export {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Light background for better contrast */
+  }
+  
+  .import-export h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Darker shade for the header */
+  }
+  
+  .import-export input[type="file"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #34495e; /* Darker text color for input */
+    background-color: #ecf0f1; /* Light gray background */
+  }
+  
+  .import-export button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #27ae60; /* Green background for buttons */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .import-export button:hover {
+    background-color: #218c4b; /* Darker green on hover */
+  }
+  
+  .import-export h3 {
+    margin-top: 20px;
+    color: #2c3e50; /* Darker shade for subheading */
+  }
+  
+  .import-export ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .import-export li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .import-export li:last-child {
+    border-bottom: none;
+  }
+  
+  .import-export table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .import-export table,
+  .import-export th,
+  .import-export td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .import-export th {
+    background-color: #2980b9; /* Blue background for table header */
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .import-export input[type="text"] {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #bdc3c7; /* Light gray border for text inputs */
+    border-radius: 4px;
+    background-color: #ecf0f1; /* Light gray background */
+    color: #34495e; /* Darker text color for input */
+  }
+  
+  .import-export .error-message {
+    color: #e74c3c; /* Red color for error messages */
+  }
+  
+  .import-export tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for alternate rows */
+  }
+  
+  .import-export tr:hover {
+    background-color: #dcdcdc; /* Darker gray on row hover */
+  }
+  
+  .import-export .export-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue for export button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .import-export .export-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,126 @@
+/* Home.css */
+
+/* Main container styling */
+.home-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Search bar and merge button container */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #5a95d9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles for contacts */
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.contact-table th, .contact-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.contact-table th {
+  background-color: #f8f9fa;
+}
+
+.contact-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Action buttons (edit and delete) */
+.contact-actions button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-actions button.edit-btn {
+  background-color: #07ff249a;
+  color: white;
+}
+
+.contact-actions button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.contact-actions button:hover {
+  opacity: 0.8;
+}
+
+/* Group section */
+.group {
+  margin-bottom: 30px;
+}
+
+.group h2 {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+  color: #333;
+}

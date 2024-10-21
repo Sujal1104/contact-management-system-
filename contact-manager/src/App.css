@@ -1,0 +1,99 @@
+/* App Container */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Set a clean font for the app */
+  background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  flex-direction: row; /* Stack items horizontally */
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Center items vertically */
+  background-color: #eee4e4; /* Dark background for the navbar */
+  padding: 15px 20px; /* Add padding for larger height */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  width: 100%; /* Full width of the window */
+  height: 20px;
+  /* position: fixed; Fixed position to stay on top */
+  top: 0; /* Align to the top of the page */
+  z-index: 1000; 
+}
+
+/* Nav Links */
+.navbar ul {
+ /* Remove default list style */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for horizontal links */
+  margin: 10px; /* Remove default margin */
+}
+
+.navbar li {
+  margin: 0 15px; /* Add horizontal margin between links */
+  color: #e6ede7;
+
+}
+
+#one{
+margin-top: 15px;
+/* text-decoration: "0";s */
+display: flex;
+flex-direction: row;
+}
+
+
+
+/* Nav Link Styles */
+.nav-link {
+  color: white; /* White text for links */
+  text-decoration: none; 
+  padding: 10px 15px; /* Padding around links */
+  border-radius: 5px; /* Rounded corners for links */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  background-color: #4CAF50; /* Change hover background color */
+}
+
+/* Button Styles */
+.nav-button {
+  padding: 10px 20px; /* Padding for buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for buttons */
+   background-color: #eee4e4;
+  color: #45a049; /* White text for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.nav-button:hover {
+  background-color: #ffffff; /* Darker green on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 100px 20px 20px; /* Add top padding to leave space for the navbar */
+  margin: 0; /* Remove left margin */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .navbar {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center items */
+  }
+
+  .main-content {
+      padding: 80px 10px 10px; /* Adjust padding for mobile */
+  }
+
+  .navbar ul {
+      flex-direction: column; /* Stack links vertically on small screens */
+  }
+
+  .navbar li {
+      margin: 5px 0; /* Add vertical margin for links on small screens */
+  }
+}
