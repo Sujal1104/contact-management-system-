@@ -13,7 +13,7 @@ app.use(cors());
 // Routes
 app.use('/api/auth', authRoutes);
 // MongoDB Connection
-mongoose.connect('mongodb+srv://sujal:gBG5fXmkDUFjjhd6@contactcluster.fr1cc.mongodb.net/?retryWrites=true&w=majority&appName=ContactCluster', {
+mongoose.connect('MONGODB_URI', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
