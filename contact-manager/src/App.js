@@ -52,7 +52,7 @@ const App = () => {
               <Link style={{ textDecoration: "none", color: "green" }} to="/">Home</Link>
             </li>
             {/* Always render the Import Data link based on signup status */}
-            {showImportData && (
+            {showImportData || (
               <li id='one'>
                 <Link style={{ textDecoration: "none", color: "green" }} to="/ImportData">Import Data</Link>
               </li>
