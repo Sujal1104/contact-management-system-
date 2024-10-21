@@ -28,7 +28,6 @@ Code Quest is a contact management system designed to help users efficiently man
   - CSS
 - **Backend**: 
   - Node.js
-  - Express.js
   - MongoDB
 - **Authentication**: 
   - JWT (JSON Web Tokens)
