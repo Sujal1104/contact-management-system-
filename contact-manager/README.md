@@ -38,4 +38,33 @@ Code Quest is a contact management system designed to help users efficiently man
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/
+   https://github.com/your_repo_name/contact-management-system-.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd contact-management
+
+ 3. Install backend dependencies: Navigate to the backend directory (if applicable) and install the required Node.js packages:
+    ```bash
+    cd backend 
+    npm install
+    
+ 4. Install frontend dependencies: Navigate to the frontend directory (if applicable) and install the required Node.js packages:
+    ```bash
+    cd ..
+    npm install
+    
+ 5. Set up environment variables: Create a .env file in the root of the backend directory and add your MongoDB connection string. The file should look like this:
+    ```bash
+    MONGODB_URI=mongodb+srv://username:password@contactcluster.fr1cc.mongodb.net/?retryWrites=true&w=majority&appName=ContactCluster
+
+## Running the Project
+ 1. Start the backend server: Navigate to the backend directory (if you aren't already there) and start the server:
+    ```bash
+      cd backend
+      node server.js
+
+2. Start the frontend application: Open a new terminal window or tab, navigate to the frontend directory, and start the application:
+    ```bash
+      cd ..
+      npm run start
